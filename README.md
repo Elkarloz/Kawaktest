@@ -1,7 +1,7 @@
 # Kawaktest
  Test Kawak
  
- ### In the project directory, you can runIn the project directory, you can run:
+ ### In the project directory, you can run in the project directory, you can run:
 `npm i`
 
 ### Run the app
