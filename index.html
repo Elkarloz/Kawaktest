@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <div
+      class="limiter"
+      style="margin: 0 auto; padding: 0; box-sizing: border-box; width: 100%"
+    >
+      <h1>Kawak</h1>
+      <h3>Factura n°</h3>
+
+      <hr />
+
+      <table style="border-collapse: collapse; border-spacing: 0" class="tg">
+        <thead>
+          <tr>
+            <th
+              style="
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                padding: 10px 100px;
+                text-align: left;
+                vertical-align: top;
+                word-break: normal;
+              "
+            >
+              <h3>Bill to:</h3>
+            </th>
+            <th
+              style="
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                padding: 10px 100px;
+                text-align: left;
+                vertical-align: top;
+                word-break: normal;
+              "
+            >
+              <h3>Send to:</h3>
+            </th>
+            <th
+              style="
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                padding: 10px 100px;
+                text-align: left;
+                vertical-align: top;
+                word-break: normal;
+              "
+            >
+              <h3>N° bill:</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td
+              style="
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                overflow: hidden;
+                padding: 10px 100px;
+                text-align: left;
+                vertical-align: top;
+                word-break: normal;
+              "
+            >
+              <h3>Date:</h3>
+            </td>
+            <td
+              style="
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                overflow: hidden;
+                padding: 10px 100px;
+                text-align: left;
+                vertical-align: top;
+                word-break: normal;
+              "
+            >
+              <h3>Total:</h3>
+            </td>
+            <td
+              style="
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                overflow: hidden;
+                padding: 10px 100px;
+                text-align: left;
+                vertical-align: top;
+                word-break: normal;
+              "
+            ></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+
+      <div
+        class="wrap-table100"
+        style="margin: 0 auto; padding: 0; box-sizing: border-box; width: 800px"
+      >
+        <div
+          class="table100"
+          style="margin: 0; padding: 0; box-sizing: border-box"
+        >
+          <table
+            style="
+              margin: 0 auto;
+              padding: 0;
+              box-sizing: border-box;
+              border-spacing: 1;
+              border-collapse: collapse;
+              background: #fff;
+              border-radius: 6px;
+              overflow: hidden;
+              width: 90%;
+              position: relative;
+            "
+          >
+            <thead
+              style="
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                position: relative;
+              "
+            >
+              <tr
+                class="table100-head"
+                style="
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+                  position: relative;
+                  height: 60px;
+                  background: #36304a;
+                "
+              >
+                <th
+                  class="column1"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 100px;
+                    font-family: OpenSans-Regular;
+                    font-size: 18px;
+                    color: #fff;
+                    line-height: 1.2;
+                    font-weight: unset;
+                  "
+                >
+                  Name
+                </th>
+
+                <th
+                  class="column2"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 40px;
+                    font-family: OpenSans-Regular;
+                    font-size: 18px;
+                    color: #fff;
+                    line-height: 1.2;
+                    font-weight: unset;
+                  "
+                >
+                  Amount
+                </th>
+                <th
+                  class="column3"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 60px;
+                    font-family: OpenSans-Regular;
+                    font-size: 18px;
+                    color: #fff;
+                    line-height: 1.2;
+                    font-weight: unset;
+                  "
+                >
+                  Unit value
+                </th>
+                <th
+                  class="column4"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 80px;
+                    font-family: OpenSans-Regular;
+                    font-size: 18px;
+                    color: #fff;
+                    line-height: 1.2;
+                    font-weight: unset;
+                  "
+                >
+                  Full value
+                </th>
+                <th
+                  class="column5"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 100px;
+                    font-family: OpenSans-Regular;
+                    font-size: 18px;
+                    color: #fff;
+                    line-height: 1.2;
+                    font-weight: unset;
+                  "
+                >
+                  Image
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              style="
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                position: relative;
+              "
+            >
+              <tr
+                style="
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+                  position: relative;
+                  font-family: OpenSans-Regular;
+                  font-size: 15px;
+                  color: grey;
+                  line-height: 1.2;
+                  font-weight: unset;
+                  height: 50px;
+                "
+              >
+                <td
+                  class="column1"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 100px;
+                  "
+                >
+                  Maglietta a righe - con coulisse
+                </td>
+
+                <td
+                  class="column2"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 40px;
+                  "
+                >
+                  1
+                </td>
+
+                <td
+                  class="column3"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 60px;
+                  "
+                >
+                  150
+                </td>
+
+                <td
+                  class="column4"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 80px;
+                  "
+                >
+                  150
+                </td>
+                <td
+                  class="column4"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    padding-top: 10px;
+                    text-align: center;
+                    width: 80px;
+                  "
+                >
+                  <img
+                    src="https://i.pinimg.com/564x/f0/80/eb/f080ebfdefcb5a5737f386bc647a6596.jpg"
+                    alt="product"
+                    style="width: 100px"
+                  />
+                </td>
+              </tr>
+              <tr
+                style="
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+                  position: relative;
+                  font-family: OpenSans-Regular;
+                  font-size: 15px;
+                  color: grey;
+                  line-height: 1.2;
+                  font-weight: unset;
+                  height: 50px;
+                "
+              >
+                <td
+                  class="column1"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 100px;
+                  "
+                >
+                  Crop Tops - Neckline on the back
+                </td>
+
+                <td
+                  class="column2"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 40px;
+                  "
+                >
+                  2
+                </td>
+
+                <td
+                  class="column3"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 60px;
+                  "
+                >
+                  300
+                </td>
+
+                <td
+                  class="column4"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 80px;
+                  "
+                >
+                  600
+                </td>
+                <td
+                  class="column4"
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    padding-left: 8px;
+                    text-align: center;
+                    width: 80px;
+                    padding-top: 10px;
+                  "
+                >
+                  <img
+                    src="https://i.pinimg.com/564x/f6/82/47/f68247481cf473ad68e13ad2d1f6c48d.jpg"
+                    alt="product"
+                    style="width: 100px"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
